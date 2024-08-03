@@ -1,0 +1,119 @@
+<!DOCTYPE html><center><div id="myDiv" style="border:3px solid black;  background-color : rgb(253, 253, 218);  height: 650px;
+width: 100%;">
+
+<br lang="en">
+<head><h1 style="border: 1px;;">FORM SECTION 309</h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REPORT</title>
+    <style>
+        h1{           
+            background: rgb(248, 226, 187);
+            text-align: center;
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        .button {
+  background-color: rgb(244, 212, 158);
+  border: 3;
+  color: rgb(7, 7, 7);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-style: italic;
+  margin: 4px 3px;
+  cursor: pointer;
+        }
+        .button4 {border-radius: 12px;}
+       
+</style>
+</head>
+    <form action="">
+        <label for="FirstName" ><b>FirstName</b></label>
+        <input type="text" placeholder="enter your  first-name">
+        <br> <br>
+        <label for="FirstName" ><b>LastName</b></label>
+        
+        <input type="text" placeholder="enter your  last-name" name="LastName" id="Last_Name">
+
+        <br> </br>
+
+        <label for=""> <b>PH No.</b></label>
+        <input type="text" pattern="[0-9]{10}" placeholder="enter your  phone number">
+        <br><br>
+
+        <label for=""> <b>Email</b></label>
+        <input type="text" pattern="text@gmail.com" placeholder="enter your  email id">
+
+        <br><br>
+        <label for="date"><b>D.O.B</b></label>
+        <input id="date" name="date" type="date" />
+
+
+        <br> </br>
+        <label for=""><b>Gender</b></label>
+        <input type="radio" name="Gender" value="Male" id="Male"><label for="Male">Male</label>
+        <input type="radio" name="Gender" value="Female" id="Female"><label for="Female">FeMale</label>
+        <input type="radio" name="Gender" value="Other" id="Other"><label for="Other">Other</label>
+
+        <br> </br>
+        <label for=""><b>Qualification</b></label>
+        <input type="checkbox" name="10th" value="10th" id="Male"><label for="Male">10th</label>
+        <input type="checkbox" name="12th" value="12th" id="Female"><label for="Female">12th</label>
+        <input type="checkbox" name="Graduate" value="Graduate" id="Other"><label for="Other">Graduate</label>
+
+        <br> </br>
+        <label for=""><b>Aadhar Number</b></label>
+        <input type="text" placeholder="Put your aadhar number" pattern="[0-9]{4}  [0-9]{4} [0-9]{4}" id="Aadhar_number">
+
+
+
+
+        <br> </br>
+        <label for="State"><b>State</b></label>
+        <select name="State" id="State">
+            <option value="">SELECT:-</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Tamilnadu">Tamilnadu</option>
+        <option value="Andhrapradesh">Andhrapradesh</option>
+    </select>&nbsp;&nbsp;
+
+    <label for="City"><b>City</b></label>
+    <select name="" id="city">
+        <option value="">SELECT:-</option>
+        <optgroup label="Karnataka">
+            <option value="">Bangalore</option>
+            <option value="">Udupi</option>
+            <option value="">Mysore</option>
+        </optgroup>
+
+        <optgroup label="Tamilnadu">
+            <option value="">Chennai</option>
+            <option value="">Hosur</option>
+        </optgroup>
+        <optgroup label="Andhrapradesh">
+            <option value="">Guntur</option>
+            <option value="">vyzak</option>
+        </optgroup>
+
+    </select>
+    <br> </br>
+    <label for="Country"><b>Country</b></label>
+    <input type="text" value="India" readonly>
+    <br></br>
+    </select>
+
+    <input type="checkbox" ><label for="">I Agree</label>
+        <input type="checkbox" ><label for="">I want to quit</label>
+        <br><br>
+    
+       <button input type="submit" class="button button4">SUBMIT</button>&nbsp;&nbsp;
+        <button input type="reset" class="button button4">RESET</button>
+        
+        <br><br>
+    </form></center>
+</body>
+</div>
+</html>
